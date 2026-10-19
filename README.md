@@ -8,6 +8,10 @@ Use it when you do not yet know what a professional would ask for. It identifies
 
 Ask for a prompt rewrite to receive a standalone prompt, or ask it to carry out the deeper task. A bare invocation with a task applies the deeper approach and executes within your existing authorization.
 
+## Explicit Invocation Only
+
+This skill runs only when you explicitly invoke it. Codex uses `policy.allow_implicit_invocation: false` in `agents/openai.yaml`; Claude Code uses `disable-model-invocation: true` in the skill frontmatter. Other harnesses must support an equivalent policy to enforce this behavior.
+
 ## Install With skills.sh
 
 Authenticate to GitHub with an account that can read this private repository before installing.

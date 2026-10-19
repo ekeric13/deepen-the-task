@@ -2,3 +2,5 @@ interface:
   display_name: "Deepen the Task"
   short_description: "Use precise methods and evidence to deepen a task"
   default_prompt: "Use $deepen-the-task to deepen this task without expanding its scope; identify the professional practices, source material, methods, and independent validation, then carry it out."
+policy:
+  allow_implicit_invocation: false

@@ -1,9 +1,12 @@
 ---
 name: deepen-the-task
 description: Deepen a task or rewrite its prompt using professional practices, primary source material, precise methods, and independent validation. Use when exploring an unfamiliar area, when the user wants more precise language to get better results from an LLM, or asks for a deeper, more rigorous approach without expanding the task.
+disable-model-invocation: true
 ---
 
 # Deepen the Task
+
+Only use this skill when the user explicitly invokes it; never select it automatically.
 
 Help the user ask for and perform work they may not yet know how to specify. Improve the method while preserving the intended outcome, deliverable, and constraints.
 
