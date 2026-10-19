@@ -1,0 +1,17 @@
+{
+  "name": "deepen-the-task",
+  "version": "0.1.0",
+  "description": "Explore unfamiliar work with professional methods, precise language, primary evidence, and independent validation.",
+  "author": {
+    "name": "ekeric13"
+  },
+  "keywords": [
+    "prompting",
+    "research",
+    "methods",
+    "validation"
+  ],
+  "skills": [
+    "./deepen-the-task"
+  ]
+}

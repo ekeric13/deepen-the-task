@@ -1,0 +1,21 @@
+{
+  "name": "deepen-the-task",
+  "owner": {
+    "name": "ekeric13"
+  },
+  "description": "A Claude Code plugin marketplace for the Deepen the Task skill.",
+  "plugins": [
+    {
+      "name": "deepen-the-task",
+      "source": "./",
+      "description": "Explore unfamiliar work with professional methods, precise language, primary evidence, and independent validation.",
+      "category": "productivity",
+      "keywords": [
+        "prompting",
+        "research",
+        "methods",
+        "validation"
+      ]
+    }
+  ]
+}
